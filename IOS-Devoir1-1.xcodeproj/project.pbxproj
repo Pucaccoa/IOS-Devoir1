@@ -13,6 +13,10 @@
 		D83F20F91F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D83F20F71F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld */; };
 		D83F20FB1F8EF69000CE4D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F20FA1F8EF69000CE4D5C /* Assets.xcassets */; };
 		D83F20FE1F8EF69000CE4D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83F20FC1F8EF69000CE4D5C /* LaunchScreen.storyboard */; };
+		D83F210A1F8EF81700CE4D5C /* CarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F21071F8EF81700CE4D5C /* CarController.swift */; };
+		D83F21101F8EF94700CE4D5C /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F210E1F8EF94700CE4D5C /* Car+CoreDataClass.swift */; };
+		D83F21111F8EF94700CE4D5C /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F210F1F8EF94700CE4D5C /* Car+CoreDataProperties.swift */; };
+		D83F21131F8F01B000CE4D5C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F21121F8F01B000CE4D5C /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D83F20FA1F8EF69000CE4D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83F20FD1F8EF69000CE4D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83F20FF1F8EF69000CE4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83F21071F8EF81700CE4D5C /* CarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarController.swift; sourceTree = "<group>"; };
+		D83F210E1F8EF94700CE4D5C /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataClass.swift"; path = "../Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D83F210F1F8EF94700CE4D5C /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "../Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D83F21121F8F01B000CE4D5C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,16 @@
 		D83F20EF1F8EF69000CE4D5C /* IOS-Devoir1-1 */ = {
 			isa = PBXGroup;
 			children = (
+				D83F210E1F8EF94700CE4D5C /* Car+CoreDataClass.swift */,
+				D83F210F1F8EF94700CE4D5C /* Car+CoreDataProperties.swift */,
+				D83F21071F8EF81700CE4D5C /* CarController.swift */,
 				D83F20F01F8EF69000CE4D5C /* AppDelegate.swift */,
 				D83F20F21F8EF69000CE4D5C /* ViewController.swift */,
 				D83F20F41F8EF69000CE4D5C /* Main.storyboard */,
 				D83F20FA1F8EF69000CE4D5C /* Assets.xcassets */,
 				D83F20FC1F8EF69000CE4D5C /* LaunchScreen.storyboard */,
 				D83F20FF1F8EF69000CE4D5C /* Info.plist */,
+				D83F21121F8F01B000CE4D5C /* TableViewController.swift */,
 				D83F20F71F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld */,
 			);
 			path = "IOS-Devoir1-1";
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83F21111F8EF94700CE4D5C /* Car+CoreDataProperties.swift in Sources */,
+				D83F21131F8F01B000CE4D5C /* TableViewController.swift in Sources */,
 				D83F20F31F8EF69000CE4D5C /* ViewController.swift in Sources */,
+				D83F21101F8EF94700CE4D5C /* Car+CoreDataClass.swift in Sources */,
 				D83F20F11F8EF69000CE4D5C /* AppDelegate.swift in Sources */,
+				D83F210A1F8EF81700CE4D5C /* CarController.swift in Sources */,
 				D83F20F91F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +319,7 @@
 				D83F21041F8EF69000CE4D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
