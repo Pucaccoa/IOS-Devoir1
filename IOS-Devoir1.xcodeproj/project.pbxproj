@@ -29,8 +29,8 @@
 		D83F20D31F8EE5A700CE4D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83F20D61F8EE5A700CE4D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83F20D81F8EE5A700CE4D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D83F20DE1F8EE71500CE4D5C /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D83F20DF1F8EE71500CE4D5C /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D83F20DE1F8EE71500CE4D5C /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataClass.swift"; path = "../Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D83F20DF1F8EE71500CE4D5C /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "../Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D83F20E21F8EE91600CE4D5C /* CarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,8 +48,6 @@
 		D83F20BB1F8EE5A700CE4D5C = {
 			isa = PBXGroup;
 			children = (
-				D83F20DE1F8EE71500CE4D5C /* Car+CoreDataClass.swift */,
-				D83F20DF1F8EE71500CE4D5C /* Car+CoreDataProperties.swift */,
 				D83F20C61F8EE5A700CE4D5C /* IOS-Devoir1 */,
 				D83F20C51F8EE5A700CE4D5C /* Products */,
 			);
@@ -66,6 +64,8 @@
 		D83F20C61F8EE5A700CE4D5C /* IOS-Devoir1 */ = {
 			isa = PBXGroup;
 			children = (
+				D83F20DE1F8EE71500CE4D5C /* Car+CoreDataClass.swift */,
+				D83F20DF1F8EE71500CE4D5C /* Car+CoreDataProperties.swift */,
 				D83F20C71F8EE5A700CE4D5C /* AppDelegate.swift */,
 				D83F20CC1F8EE5A700CE4D5C /* MasterViewController.swift */,
 				D83F20CE1F8EE5A700CE4D5C /* DetailViewController.swift */,
