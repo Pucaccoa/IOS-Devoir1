@@ -17,6 +17,7 @@
 		D83F21101F8EF94700CE4D5C /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F210E1F8EF94700CE4D5C /* Car+CoreDataClass.swift */; };
 		D83F21111F8EF94700CE4D5C /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F210F1F8EF94700CE4D5C /* Car+CoreDataProperties.swift */; };
 		D83F21131F8F01B000CE4D5C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F21121F8F01B000CE4D5C /* TableViewController.swift */; };
+		D83F21361F8F1B9600CE4D5C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F21351F8F1B9600CE4D5C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D83F210E1F8EF94700CE4D5C /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataClass.swift"; path = "../Car+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D83F210F1F8EF94700CE4D5C /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "../Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D83F21121F8F01B000CE4D5C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D83F21351F8F1B9600CE4D5C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D83F20FF1F8EF69000CE4D5C /* Info.plist */,
 				D83F21121F8F01B000CE4D5C /* TableViewController.swift */,
 				D83F20F71F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld */,
+				D83F21351F8F1B9600CE4D5C /* DetailViewController.swift */,
 			);
 			path = "IOS-Devoir1-1";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				D83F20F11F8EF69000CE4D5C /* AppDelegate.swift in Sources */,
 				D83F210A1F8EF81700CE4D5C /* CarController.swift in Sources */,
 				D83F20F91F8EF69000CE4D5C /* IOS_Devoir1_1.xcdatamodeld in Sources */,
+				D83F21361F8F1B9600CE4D5C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
