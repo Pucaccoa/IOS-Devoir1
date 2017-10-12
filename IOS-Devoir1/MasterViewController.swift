@@ -37,6 +37,9 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
 
     func insertNewObject(_ sender: Any) {
         let context = self.fetchedResultsController.managedObjectContext
@@ -189,6 +192,10 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
          self.tableView.reloadData()
      }
      */
+    
+    
+    
+    
 
 }
 
